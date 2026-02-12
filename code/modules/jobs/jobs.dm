@@ -140,6 +140,9 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 "Vault-tec Scientist",
 "Vault-tec Security",
 "Vault-tec Engineer",
+
+"Family Head",
+"Family Member",
 ))
 //Brotherhood
 GLOBAL_LIST_INIT(bos_command_positions, list(
@@ -350,6 +353,13 @@ GLOBAL_LIST_INIT(followers_positions, list(
 	"Followers Volunteer",
 	"Town Scientist",
 ))
+
+//Family
+GLOBAL_LIST_INIT(family_positions, list(
+	"Family Head",
+	"Family Member",
+))
+
 //Outlaw
 GLOBAL_LIST_INIT(outlaw_positions, list(
 	"Outlaw"
@@ -364,8 +374,9 @@ GLOBAL_LIST_INIT(position_categories, list(
 	EXP_TYPE_WASTELAND = list("jobs" = wasteland_positions, "color" = "#6d613f"),
 	EXP_TYPE_ENCLAVE = list("jobs" = enclave_positions, "color" = "#0026ff"),
 	EXP_TYPE_KHAN = list("jobs" = khan_positions, "color" = "#b77dee"),
-	"The Family" = list("jobs" = town_positions, "color" = "#d7b088"),
+	"New Town" = list("jobs" = town_positions, "color" = "#d7b088"),
 	EXP_TYPE_TRIBAL = list("jobs" = tribal_positions, "color" = "#05ffff"),
+	"The Family" = list("jobs" = family_postions, "color" = #d7b088"),
 	//"Redwater" = list("jobs" = redwater_positions, "color" = "#f81717"),
 ))
 
