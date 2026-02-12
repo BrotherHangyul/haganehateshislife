@@ -4,7 +4,7 @@
 #define FACTION_NCR "NCR"
 #define FACTION_LEGION "Legion"
 #define FACTION_BROTHERHOOD "BOS"
-#define FACTION_OASIS "Town"
+#define FACTION_OASIS "New Town"
 #define FACTION_ENCLAVE "Enclave"
 #define FACTION_WASTELAND "Wastelander"
 #define FACTION_RAIDERS "Raiders"
@@ -12,6 +12,7 @@
 #define FACTION_VAULT "Vault"
 #define FACTION_FOLLOWERS "Followers"
 #define FACTION_KHAN "Great Khans"
+#define FACTION_FAMILY "The Family"
 
 #define ENGSEC			(1<<0)
 
@@ -201,6 +202,10 @@
 #define F13KIPCHAK (1<<4)
 #define F13MANGUDAI (1<<5)
 
+#define FAMILY		(1<<13)
+
+#define F13FAMILYHEAD (1<<0)
+#define F13FAMILYMEMBER (1<<1)
 
 #define JOB_AVAILABLE 0
 #define JOB_UNAVAILABLE_GENERIC 1
@@ -359,7 +364,11 @@
 
 #define JOB_DISPLAY_ORDER_NOYAN 127
 #define JOB_DISPLAY_ORDER_STEWARD 128
+
 #define JOB_DISPLAY_ORDER_KHESHIG 129
 #define JOB_DISPLAY_ORDER_KHORCHIN 128
 #define JOB_DISPLAY_ORDER_KIPCHAK 129
 #define JOB_DISPLAY_ORDER_MANGUDAI 130
+
+#define JOB_DISPLAY_ORDER_FAMILYHEAD 131
+#define JOB_DISPLAY_ORDER_FAMILYMEMBER 132
